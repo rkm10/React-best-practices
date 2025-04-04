@@ -18,6 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -45,9 +46,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -58,20 +61,22 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
 }
 
 /* OTP-VALIDATION */
-.otp-container{
+.otp-container {
   display: block;
 }
 
-.otp-input{
+.otp-input {
   width: 50px;
   height: 50px;
   margin: 10px;
@@ -80,33 +85,38 @@ button:focus-visible {
 }
 
 /* AUTO-SUGGEST */
-.auto-suggest-container{
+.auto-suggest-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.auto-suggest{
+.auto-suggest {
   width: 450px;
   height: 30px;
 }
 
-.auto-suggest-list{
+.auto-suggest-list {
   width: 450px;
   height: 250px;
-  border:1px solid #ffffff;
+  border: 1px solid #ffffff;
   padding: 3px;
   overflow-y: scroll;
 }
 
-.auto-suggest-list-item{
+.auto-suggest-list-item {
   color: aliceblue;
   display: block;
   padding: 5px;
 }
 
-.auto-suggest-list-item:hover{
+.auto-suggest-list-item:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.auto-suggest-list-item.selected {
   background-color: #ffffff;
   color: #000000;
 }
