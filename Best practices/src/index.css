@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
@@ -24,7 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -65,4 +64,49 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* OTP-VALIDATION */
+.otp-container{
+  display: block;
+}
+
+.otp-input{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* AUTO-SUGGEST */
+.auto-suggest-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auto-suggest{
+  width: 450px;
+  height: 30px;
+}
+
+.auto-suggest-list{
+  width: 450px;
+  height: 250px;
+  border:1px solid #ffffff;
+  padding: 3px;
+  overflow-y: scroll;
+}
+
+.auto-suggest-list-item{
+  color: aliceblue;
+  display: block;
+  padding: 5px;
+}
+
+.auto-suggest-list-item:hover{
+  background-color: #ffffff;
+  color: #000000;
 }
